@@ -1,0 +1,29 @@
+WARNING:root:This is warning Message
+ERROR:root:This is error Message
+CRITICAL:root:This is critical Message
+WARNING:root:This is warning Message
+ERROR:root:This is error Message
+CRITICAL:root:This is critical Message
+WARNING:root:This is warning Message
+ERROR:root:This is error Message
+CRITICAL:root:This is critical Message
+2020-05-07 16:00:28,425 This is warning Message
+2020-05-07 16:00:28,469 This is error Message
+2020-05-07 16:00:28,469 This is critical Message
+05/07/2020 04:01:32 PM This is warning Message
+05/07/2020 04:01:32 PM This is error Message
+05/07/2020 04:01:32 PM This is critical Message
+WARNING:root:This is warning Message
+ERROR:root:This is error Message
+CRITICAL:root:This is critical Message
+05/07/2020 04:13:25 PM : This is warning Message
+05/07/2020 04:13:25 PM : This is error Message
+05/07/2020 04:13:25 PM : This is critical Message
+05/07/2020 04:19:40 PM : This is warning Message
+05/07/2020 04:19:40 PM : This is error Message
+05/07/2020 04:19:40 PM : This is critical Message
+ERROR:root:division by zero
+Traceback (most recent call last):
+  File "C:/Users/admin/PycharmProjects/todo/scripts/logProgram.py", line 12, in <module>
+    print(x/y)
+ZeroDivisionError: division by zero

@@ -1,0 +1,5 @@
+Write data in the file 
+lalit
+sagar
+abcd
+wxyz

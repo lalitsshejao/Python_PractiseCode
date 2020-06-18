@@ -1,0 +1,34 @@
+>>> All the pytest file should start with "test_" or ends with "_test"
+>>> pytest method name should start with "test"
+>>> Code should be wrapped inside the method only
+>>> Method name should have some proper sense (Meaningfull name)
+
+>>> To run a specific file py.test <file name (along with path)> (py.test filename)
+
+>>>
+-k => method name execution i.e. method name having that word will be executed.
+-v => more info Metadata
+-s => log output
+
+py.test -k CreditCard -v -s => all the test methods having CreditCard word in it will be executed.
+
+>>> Add the tag to the test case (method) {import pytest - above the test case(method) add @pytest.mark.<tagName>}
+eg:
+@pytest.mark.smoke
+def test_demo():
+>>> To execute the marked test cases =>> py.test -m smoke -s -v
+
+>>> To skip the test case (Method) use @pytest.mark.skip tag above the Method
+eg:
+@pytest.mark.skip
+def test_demo():
+
+==> py.test -s -v  => All the test will be executed except which are marked as "skip"
+
+>>> Execute the test case but don't show the status of execution as Pass / Fail then add the below tag
+@pytest.mark.xfail
+(this scenario will come when we want to run the test case irrespective of its status
+as it act as the prerequisite for the next test case)
+
+Fixture is like setup and teardown (do this once the test is done) method for the test cases.
+Fixture can be defined in conftest.py file, so that it will be available for all the test cases,

@@ -1,0 +1,8 @@
+06/05/2020 04:56:58 PM: WARNING: This is warning Message
+06/05/2020 04:56:58 PM: ERROR: This is error Message
+06/05/2020 04:56:58 PM: CRITICAL: This is critical Message
+06/05/2020 04:59:32 PM: DEBUG: This is debug Message
+06/05/2020 04:59:32 PM: INFO: This is info Message
+06/05/2020 04:59:32 PM: WARNING: This is warning Message
+06/05/2020 04:59:32 PM: ERROR: This is error Message
+06/05/2020 04:59:32 PM: CRITICAL: This is critical Message
